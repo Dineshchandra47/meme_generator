@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components{
+  .input{
+    @apply p-[0.625rem] border border-solid border-[#D5D4D8] rounded-md;
+  }
+  .shadow {
+    text-shadow:
+        2px 2px 0 #000,
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        0 2px 0 #000,
+        2px 0 0 #000,
+        0 -2px 0 #000,
+        -2px 0 0 #000,
+        2px 2px 5px #000;
+  }
+  .meme-text{
+    @apply absolute text-[2rem] uppercase text-center w-full text-white my-4 font-[sans-serif] tracking-[1px];
+  }
+}
